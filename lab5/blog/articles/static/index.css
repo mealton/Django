@@ -67,3 +67,12 @@ h1 {
 .article-created-date {
     text-align: right;
 }
+
+
+main{
+    padding: 60px 0;
+}
+
+.one-post{
+    padding: 25px 0;
+}
