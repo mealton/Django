@@ -49,7 +49,7 @@ h1 {
     height: auto;
 }
 
-.archive {
+.archive, .one-post {
     width: 960px;
     margin-left: auto;
     margin-right: auto;

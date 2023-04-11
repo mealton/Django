@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="{{ STATIC_URL }}/static/index.css">
 </head>
 <body>
-<div class="header">
-    <p align="right"><a href="/">Все новости</a></p>
-    <img src="{{ STATIC_URL }}/static/img/Python-Django-1.jpg" alt="">
-</div>
 <div class="one-post">
+    <div class="header">
+        <p align="right"><a href="/">Все новости</a></p>
+        <img src="{{ STATIC_URL }}/static/img/Python-Django-1.jpg" alt="">
+    </div>
     <h2 class="post-title">{{ post.title }}</h2>
     <div class="article-info">
         <div class="article-author">{{ post.author.username }}</div>
